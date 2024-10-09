@@ -15,8 +15,8 @@ const AddTask = ({ listTask, setlistTask }) => {
             <h1>Agregar una tarea</h1>
 
             <form onSubmit={handleSubmit}>
-                <input type="text" />
-                <textarea></textarea>
+                <input type="text" placeholder="Titulo" />
+                <textarea placeholder="Describe tu tarea aqui."></textarea>
 
                 <button type="submit">Agregar</button>
             </form>
