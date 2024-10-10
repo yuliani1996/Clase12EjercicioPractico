@@ -11,8 +11,9 @@ function Home() {
     return (
         <>
             <Header setShowComponent={setShowComponent} />
-
+            
             {showCmponent ? <AddTask listTask={listTask} setlistTask={setlistTask} /> : <SeeTask listTask={listTask} />}
+            
         </>
     );
 }

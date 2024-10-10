@@ -12,7 +12,7 @@ const SeeTask = ({ listTask }) => {
         <div>
             <h1>Lista de tareas</h1>
 
-            <ul>{elements}</ul>
+            <ol className="ol-tareas">{elements}</ol>
         </div>
     );
 };

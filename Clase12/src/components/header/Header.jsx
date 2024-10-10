@@ -7,7 +7,7 @@ const Header = ({ setShowComponent }) => {
         <header>
             <nav>
                 <ul>
-                    <BottonAtom text="Agregar Tarea" value={true} setShowComponent={setShowComponent} />
+                    <BottonAtom clas text="Agregar Tarea" value={true} setShowComponent={setShowComponent} />
                     <BottonAtom text="Ver Tareas" value={false} setShowComponent={setShowComponent} />
                 </ul>
             </nav>
