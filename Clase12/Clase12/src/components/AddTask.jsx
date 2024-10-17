@@ -4,8 +4,8 @@ const AddTask = ({ listTask, setlistTask }) => {
     const handleSubmit = (e) => {
         e.preventDefault();
 
-        const title = e.target[0].value; 
-        const description = e.target[1].value; 
+        const title = e.target[0].value; // Obtén el valor del input
+        const description = e.target[1].value; // Obtén el valor del textarea
 
         setlistTask([...listTask, { title, description }]);
     };

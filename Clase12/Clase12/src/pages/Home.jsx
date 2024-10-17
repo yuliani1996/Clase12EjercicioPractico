@@ -4,7 +4,6 @@ import AddTask from "../components/AddTask";
 import Header from "../components/header/Header";
 import SeeTask from "../components/SeeTask";
 
-
 function Home() {
     const [showCmponent, setShowComponent] = useState(true);
     const [listTask, setlistTask] = useState([]);
